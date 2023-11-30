@@ -53,7 +53,7 @@ public class Project01 {
 
         // the QRate
         do{
-            System.out.print("Please enter the tax rate of QST in % [0...14]:");
+            System.out.print("Please enter the tax rate of QST in % [0...17]:");
             QRateInput = scanner.nextDouble();
             if(QRateInput < QST_MIN || QRateInput > QST_MAX)
                 invalidCounter++;
